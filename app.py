@@ -10,11 +10,20 @@
 # print(name + ' likes ' + color)
 # print(float(weight) * 0.453592)
 
-price = 1000000
-is_goodCredit = True
-if is_goodCredit:
-    print('put down 10%')
-    print(price * .1)
+# price = 1000000
+# is_goodCredit = True
+# if is_goodCredit:
+#     print('put down 10%')
+#     print(f'Down Payment: ${price * .1}')
+# else:
+#     print('put down 20%')
+#     print(f'Down Payment: ${price * .2}')
+
+# Logical Operators/Comparison Operator
+name = 'Jake';
+if len(name) < 3:
+    print('Name must be atleast 3 characters')
+elif len(name) > 50:
+    print('Name can be max of 50 characters')
 else:
-    print('put down 20%')
-    print(price * .2)
+    print('Name looks good!')
